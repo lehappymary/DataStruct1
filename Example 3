@@ -1,4 +1,4 @@
-/Oloading.h
+//Oloading.h
 #ifndef OLOADING_H
 #define OLOADING_H
 
@@ -28,7 +28,7 @@ OLoading::OLoading()
 	loan = 10000;
 }
 
-OLoading::~OLoading(double l)
+OLoading::OLoading(double l)
 {
 	loan = l;
 }
@@ -65,7 +65,7 @@ void main()
 
 	pay = Siti.Payment(month, interest);
 
-	cout << "Siti Total payment per month : RM" < , pay;
+	cout << "Siti Total payment per month : RM" << pay;
 	cout << "\n\nEnter Loan for Minah : ";
 	cin >> loan;
 
