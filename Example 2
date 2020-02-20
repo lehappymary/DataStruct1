@@ -5,15 +5,14 @@
 
 class MyClass
 {
-private:				
+private:
 	int x;
 
 public:
-	MyClass();	
-	MyClass (int n);	
+	MyClass();
+	MyClass(int n);
 	int getx();
 
-	system("pause");
 };
 #endif
 
@@ -26,7 +25,7 @@ using namespace std;
 
 MyClass::MyClass()
 {
-	x=0;
+	x = 0;
 }
 
 MyClass::MyClass(int n)
@@ -53,4 +52,6 @@ void main()
 		cout << "k[" << i << "] = " << k[i].getx() << "\t\t";
 		cout << "p[" << i << "] = " << p[i].getx() << endl;
 	}
+
+	system("pause");
 }
